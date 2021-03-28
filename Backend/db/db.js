@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 
 const url =
-  "mongodb+srv://rohed:mdrohed@cluster0.sib8h.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "";
 // Connect MongoDB at default port 27017.
 let mong = mongoose.connect(
   url,
